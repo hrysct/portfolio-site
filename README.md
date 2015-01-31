@@ -1,2 +1,2 @@
 # portfolio-site
-Portfolio site. 
+Portfolio site made my Harry (hrysct) and Fred (freddieb).
