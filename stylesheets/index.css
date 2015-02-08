@@ -83,6 +83,7 @@ NAVIGATION
   padding: 0 10px;
   margin: 0;
   font-size: 1em;
+  font-family: 'Oswald', sans-serif;
 }
 
 
@@ -152,6 +153,7 @@ First View Section
 }
 
 #primary h3 {
+  font-family: 'Oswald', sans-serif;
   font-size: 1.5em;
   margin: 5px 0 5px 0;
 }
