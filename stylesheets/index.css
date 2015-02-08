@@ -12,9 +12,9 @@ a {
   text-decoration: none;
 }
 
-html {
-  margin: 0;
-  padding: 0;
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5em;
 }
 
 
@@ -153,8 +153,6 @@ First View Section
 }
 
 #primary h3 {
-  font-family: 'Oswald', sans-serif;
-  font-size: 1.5em;
   margin: 5px 0 5px 0;
 }
 
@@ -175,6 +173,41 @@ First View Section
   margin-top: 10px;
   float: left;
 }
+
+
+
+/**********************************
+First View Section
+***********************************/
+
+#gallery {
+  margin: 100px 0 0 0;
+  max-width: 1200px;
+  height: 2000px;
+}
+
+#gallery h3 {
+  color: #333;
+  margin-left: 20px;
+}
+
+#gallery ul {
+  margin: 0;
+  padding: 10px;
+}
+
+#gallery ul li {
+  list-style: none;
+  float: left;
+}
+
+#gallery ul li img {
+  max-width: 373px;
+  max-height: 373px;
+  margin: 9px;
+  border: 1px solid #333;
+}
+
 
 
 /**********************************
