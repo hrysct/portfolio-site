@@ -89,7 +89,7 @@ NAVIGATION
 
 
 /**********************************
-First View Section
+Section
 ***********************************/
 
 section {
@@ -131,7 +131,7 @@ First View Section
 
 
 /**********************************
-First View Section
+About Section
 ***********************************/
 
 #about {
@@ -177,13 +177,13 @@ First View Section
 
 
 /**********************************
-First View Section
-***********************************/
+Portfolio Section
+**********************************/
 
 #gallery {
   margin: 100px 0 0 0;
   max-width: 1200px;
-  height: 2000px;
+  height: 746px;
 }
 
 #gallery h3 {
@@ -206,6 +206,68 @@ First View Section
   max-height: 373px;
   margin: 9px;
   border: 1px solid #333;
+}
+
+
+
+/**********************************
+Services Section
+***********************************/
+
+#service {
+  margin: 0 0 0 20px;
+  max-width: 1200px;
+  height: 650px;
+  padding: 0px;
+}
+
+#service ul {
+  list-style: none;
+}
+
+#service h3 {
+  color: #333;
+}
+
+#service ul li {
+  float: left;
+  height: 500px;
+  padding: 0 20px 0 20px;
+  margin: 0 40px 0 40px;
+  background-color: #39b54a;
+  color: #fff;
+}
+
+#service ul li h4 {
+  font-size: 1.2em;
+}
+
+#service ul li img {
+  border-radius: 100%;
+  max-height: 150px;
+  max-width: 150px;
+}
+
+#service ul li p {
+  max-width: 150px;
+}
+
+
+
+/**********************************
+Footer
+***********************************/
+
+footer {
+  margin-top: 1650px;
+  height: 120px;
+  background-color: #333;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+  padding-top: 50px;
 }
 
 
