@@ -1,0 +1,128 @@
+/**********************************
+GENERAL
+***********************************/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+/**********************************
+HEADING
+***********************************/
+
+header {
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 100%
+}
+
+#logo li {
+  list-style: none;
+  display: inline-block;
+}
+
+#logo {
+  float: left;
+  padding: 7px 0 0 0;
+  margin: 0 0 0 90px;
+}
+
+/* Spider web image in logo */
+#logo img {
+  width: 25px;
+  height: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+/* 'Pixel Web' text in logo */
+#logo h1 {
+  font-family: 'Lobster', sans-serif;
+  font-size: 1.7em;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/**********************************
+NAVIGATION
+***********************************/
+
+#naviagtion {
+  text-align: right;
+  padding: 5px 5px;
+  margin: 10px 90px 10px 10px;
+}
+
+#naviagtion ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+#naviagtion li {
+  display: inline-block;
+  padding: 0 10px;
+  margin: 0;
+  font-size: 1em;
+}
+
+
+
+/**********************************
+First View Section
+***********************************/
+#firstview p {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/**********************************
+COLORS
+***********************************/
+
+/* site body */
+body {
+  background-color: #fff;
+  color: #999;
+}
+
+/* grey header */
+header {
+  background: #333;
+}
+
+/* logo text */
+#logo h1 {
+  color: #fff;
+}
+
+/* links */
+#naviagtion li {
+  color: #999;
+}
+
+/* selected nav link */
+#naviagtion li.selected, #naviagtion li:hover, #naviagtion li a {
+  color: #fff;
+}
